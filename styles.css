@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #eee;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .header {
