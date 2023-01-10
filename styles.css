@@ -7,11 +7,13 @@ body {
     min-height: 100vh;
     background-color: #eee;
     font-family: 'Roboto', 'sans-serif';
+    margin-left: 200px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-right: 200px;
 
 }
 
@@ -23,6 +25,7 @@ body {
 
 .section {
     display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -47,3 +50,19 @@ li {
     justify-content: center;
     margin-right: 20px;
 }
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.product-lineup {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.products-title {
+    display: flex;
+}
+
